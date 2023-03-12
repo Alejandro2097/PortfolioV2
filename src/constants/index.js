@@ -1,29 +1,4 @@
-import {
-  mobile,
-  backend,
-  creator,
-  web,
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
-} from "../assets";
+import { accenture, backend, BancoDeBogota, bimbo, carrent, cocacola, Cos, creator, css, docker, FCB, figma, fisiomax, git, halo, html, javascript, jobit, mapas, meta, mobile, mongodb, nodejs, onoda, reactjs, reddit, redux, shopify, starbucks, tailwind, tesla, threejs, tripguide, typescript, web } from "../assets";
 
 export const navLinks = [
   {
@@ -46,16 +21,8 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -116,57 +83,58 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "software engineer",
+    company_name: "Banco de bogotà",
+    icon: BancoDeBogota,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "oct. 2021- at the moment",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Front-end development with Angular 12+",
+      "Back-end Typescript/NodeJS development ",
+      "IaC Terraform for AWS",
+      "API Rest design",
+
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "front-end developer",
+    company_name: "Accenture ",
+    icon: accenture,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: " may. 2021- sep 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Angular and Java academy participation.",
+      "Learning about Springboot.",
+      "Learning about DevOps and docker.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Web developer",
+    company_name: "Fcb & Fire",
+    icon: FCB,
+    iconBg: "#E6DEDD",
+    date: "aug. 2019 - apr 2021",
+    points: [
+      "Development and implementation of custom web applications.",
+      "Database administration in MySQL.",
+      "Creation of web pages in WordPress.",
+      "Content management in WordPress.",
+      "Web application development with HTML, CSS, JavaScript and PHP"
+    ],
+  },
+  {
+    title: "Adviser CGO",
+    company_name: "COLOMBIAN OUTSORCING SOLUTIONS (CLARO)",
+    icon: Cos,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: " jun 2018 - aug  2019",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Management of technical personnel.",
+      "Management of support to technical personnel in the field.",
+      "customer service.",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
