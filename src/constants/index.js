@@ -1,4 +1,4 @@
-import { accenture, backend, BancoDeBogota, bimbo, carrent, cocacola, Cos, creator, css, docker, FCB, figma, fisiomax, git, halo, html, javascript, jobit, mapas, meta, mobile, mongodb, nodejs, onoda, reactjs, reddit, redux, shopify, starbucks, tailwind, tesla, threejs, tripguide, typescript, web } from "../assets";
+import { accenture, backend, BancoDeBogota, bimbo, cuida, carrent, cocacola, Cos, creator, css, docker, FCB, figma, fisiomax, git, halo, html, javascript, jobit, mapas, meta, mobile, mongodb, nodejs, onoda, reactjs, reddit, redux, shopify, starbucks, tailwind, tesla, threejs, tripguide, typescript, web } from "../assets";
 
 export const navLinks = [
   {
@@ -23,6 +23,14 @@ const services = [
   {
     title: "Backend Developer",
     icon: backend,
+  },
+  {
+    title: "Wordpress Developer",
+    icon: creator,
+  },
+  {
+    title: "Mobile Developer",
+    icon: mobile,
   },
 ];
 
@@ -166,16 +174,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Reddit Clone",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Project that I developed while following one of the courses on freeCodeCamp. Through this project, I gained significant knowledge about various technologies such as React, Chakra UI, and Firebase",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Firebase",
         color: "green-text-gradient",
       },
       {
@@ -183,49 +191,106 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: reddit,
+    source_code_link: "https://github.com/Alejandro2097/Reddit-Clone",
   },
   {
-    name: "Job IT",
+    name: "Halo infinite landing page",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "The implementation of this project is in HTML5 CSS and vanilla javascript, whit vite we generate the build folder to render de website in githug pages. The website is responsive and respond to the dark mode or ligth mode in your computer you can see the live demo in the next link.",
     tags: [
       {
-        name: "react",
+        name: "HTML",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: halo,
+    source_code_link: "https://github.com/Alejandro2097/HaloInfiniteWeb",
+  },
+  {
+    name: "Maps with Angular",
+    description:
+      "Personal project using the MapBox Api where you can search places all over the world and look out for instruction jus like Google maps. Remember activate the location in your web browser to the live Demo.",
+    tags: [
+      {
+        name: "Angular",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mapas,
+    source_code_link: "https://github.com/Alejandro2097/mapasApp",
+  },
+  {
+    name: "Coca-cola Forme Player",
+    description:
+      "This website was created to play movies licenced by sony pictures as a advertising campaign of Coca-cola.",
+    tags: [
+      {
+        name: "Worpress",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: cocacola,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Cuida Tus Ojos",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "E-commerce and blog for a eye drops brand in Colombia",
     tags: [
       {
-        name: "nextjs",
+        name: "Worpress",
         color: "blue-text-gradient",
       },
+    ],
+    image: cuida,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Resuelve con Bimbo",
+    description:
+      "CMS Of Resuelbe con bimbo where you can find recipes related with bimbo products.",
+    tags: [
       {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Drupal",
+        color: "blue-text-gradient",
       },
     ],
-    image: tripguide,
+    image: bimbo,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Onoda.com",
+    description:
+      "Landing page and Blog for a E-sports team in Colombian",
+    tags: [
+      {
+        name: "Worpress",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: onoda,
+    source_code_link: "https://github.com/",
+  },
+  {
+    name: "Fisiomax",
+    description:
+      "Landing page to the product Fisiomax in Colombia that shows you where you can buy it",
+    tags: [
+      {
+        name: "Worpress",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: fisiomax,
     source_code_link: "https://github.com/",
   },
 ];

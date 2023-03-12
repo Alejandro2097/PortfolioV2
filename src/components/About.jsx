@@ -1,10 +1,10 @@
+import { motion } from "framer-motion";
 import React from "react";
 import Tilt from "react-tilt";
-import { motion } from "framer-motion";
 
-import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
+import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
@@ -47,11 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       Hi there! I am a software engineer with 3 years of experience in developing web applications using Angular, NodeJS, AWS, and TypeScript.
+
+        In my current role, I have been responsible for designing and implementing scalable and maintainable software solutions for a variety of clients, using a range of technologies including Angular, NodeJS, and AWS. I am also skilled in TypeScript, which has allowed me to write clean, efficient code that is easy to understand and maintain.
+
+        I am always looking to learn and grow as a developer, and am eager to take on new challenges and contribute to exciting projects. Thank you for considering me for your team!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
